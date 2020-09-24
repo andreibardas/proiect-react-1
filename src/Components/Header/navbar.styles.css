@@ -1,0 +1,29 @@
+.navbar-container {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50vw;
+}
+
+.navbar-home {
+    align-self: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
